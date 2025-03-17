@@ -20,17 +20,17 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Basic Login App",
+          "login ni MAN",
           style: TextStyle(
             fontWeight: FontWeight.bold,
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.blueGrey[700],
+        backgroundColor: Colors.blue,
         elevation: 4,
-        shadowColor: Colors.blueGrey,
+        shadowColor: Colors.blueAccent,
       ),
-      backgroundColor: Colors.grey[800],
+      backgroundColor: Colors.white,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -39,11 +39,11 @@ class _HomePageState extends State<HomePage> {
               width: 250,
               child: TextField(
                 controller: _usernameController,
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Colors.black),
                 decoration: InputDecoration(
                   labelText: "Username",
                   labelStyle: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderSide: BorderSide(
