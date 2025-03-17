@@ -22,13 +22,13 @@ class _SecondPageState extends State<SecondPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Welcome'),
+        title: const Text('verified kupal ka'),
         backgroundColor: Colors.blueGrey[700],
       ),
       backgroundColor: Colors.grey[800],
       body: Center(
         child: Text(
-          'Welcome, ${widget.username}!',
+          'Hi, ${widget.username}!',
           style: const TextStyle(
             color: Colors.white,
             fontSize: 24,
